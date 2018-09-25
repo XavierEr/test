@@ -5,7 +5,7 @@ const hotels = require('./routes/hotels');
 
 const app = express();
 
-app.use(cors())
+app.use(cors());
 
 app.set('port', (process.env.PORT || 80));
 
